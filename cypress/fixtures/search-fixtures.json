@@ -1,0 +1,10 @@
+[
+  {
+    "query": "корсет",
+    "expectedInTitle": "корсет"
+  },
+  {
+    "query": "латекс",
+    "expectedInTitle": "латекс"
+  }
+]
