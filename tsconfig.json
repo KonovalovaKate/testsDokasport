@@ -10,5 +10,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["cypress/**/*.ts", "cypress.config.ts"]
+  "include": ["cypress/**/*.ts", "cypress.config.ts"],
+  "exclude": ["playwright/**", "playwright.config.ts"]
 }
