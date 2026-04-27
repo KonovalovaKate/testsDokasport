@@ -5,6 +5,7 @@ describe("DokaSport header", () => {
 
   beforeEach(() => {
     headerPage.visitHome();
+    cy.checkPageReady();
   });
 
   it("shows core header structure on desktop", () => {

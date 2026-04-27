@@ -12,6 +12,7 @@ describe("DokaSport main page", () => {
 
   beforeEach(() => {
     mainPage.visitHome();
+    cy.checkPageReady();
   });
 
   it("shows main navigation and hero content", () => {
